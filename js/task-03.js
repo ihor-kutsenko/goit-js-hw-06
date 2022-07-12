@@ -18,4 +18,4 @@ const galleryItem = ({ url, alt }) =>
 const galleryMarkup = images.map((image) => galleryItem(image));
 
 galleryList.insertAdjacentHTML("afterbegin", galleryMarkup);
-galleryList.setAttribute("style", "list-style-type:none; display: flex;");
+galleryList.setAttribute("style", "list-style-type:none; display: flex");
