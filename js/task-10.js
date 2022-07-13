@@ -12,7 +12,7 @@ function createBoxes(amount) {
   const array = [];
   for (let i = 1; i <= input.value; i += 1) {
     const container = document.createElement("div");
-    container.style.height = container.style.width = `${30 + i * 10}px`;
+    container.style.height = container.style.width = `${20 + i * 10}px`;
     container.style.backgroundColor = getRandomHexColor();
     array.push(container);
   }
