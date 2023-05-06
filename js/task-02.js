@@ -19,3 +19,16 @@ const listOfIngredients = (ingredients) => {
 };
 
 list.append(...listOfIngredients(ingredients));
+
+// variant 2
+// const listOfIngredients = ingredients.map(ingredient => {
+//     const item = document.createElement("li");
+//     item.textContent = ingredient;
+//     item.classList.add("item");
+//     return item;
+//   })
+// console.log(listOfIngredients);
+// console.log(...listOfIngredients);
+
+
+// list.append(...listOfIngredients);

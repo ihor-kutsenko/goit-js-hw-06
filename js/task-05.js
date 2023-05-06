@@ -8,3 +8,18 @@ nameInputEl.addEventListener("input", () => {
     nameOutputEl.innerHTML = "Anonymous";
   }
 });
+
+// variant 2
+
+// const nameInput = document.querySelector("#name-input");
+// const nameOutput = document.querySelector("#name-output");
+
+
+
+// nameInput.addEventListener("input", () => {
+//   if (nameInput.value === "") {
+//   return  nameOutput.textContent = "Anonymous";
+
+//   }
+//    nameOutput.textContent = nameInput.value;
+// });
